@@ -1,0 +1,1 @@
+# hstd-can-proto-rust-example
