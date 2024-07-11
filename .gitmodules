@@ -1,0 +1,3 @@
+[submodule "src/hstd-can-proto"]
+	path = src/hstd-can-proto
+	url = https://github.com/HEXMOVE/hstd-can-proto.git
