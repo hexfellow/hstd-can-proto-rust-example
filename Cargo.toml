@@ -1,5 +1,5 @@
 [package]
-name = "xnode_comm"
+name = "hstd-can-proto-example"
 version = "2.0.0"
 edition = "2021"
 
@@ -9,7 +9,7 @@ futures = "0.3.30"
 futures-channel = "0.3.30"
 futures-util = "0.3.30"
 tokio = { version = "1.37.0", features = ["full"] }
-prost = "0.12"
+prost = "0.13.3"
 env_logger = "0.11.3"
 clap = "4.5.4"
 ctrlc = "3.4.4"
@@ -18,9 +18,10 @@ url = "2.5.0"
 serde = { version = "1.0.203", features = ["derive"] }
 colored = "2.1.0"
 lazy_static = "1.5.0"
+reqwest = "0.12.9"
 
 [build-dependencies]
-prost-build = { version = "0.12.4" }
+prost-build = { version = "0.13.3" }
 
 [profile.colcon]
 inherits = "release"
